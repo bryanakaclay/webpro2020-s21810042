@@ -15,7 +15,9 @@ function kali(a, b){
 
 console.log(tambah(kali(5, 2), kali(10, 2)));
 
+// function jumlah{
+//     if(jumlah > 13){
 
-const jumlah (a, b){
-    return (a + b);
-}
+//     }
+// }
+
