@@ -42,6 +42,7 @@ console.log(mhs1["namaBelakang"]);
 console.log(mhs1.alamat.jalan);
 console.log(mhs1.IPSemester);
 console.log(mhs1);
+console.log(mhs2.namaDepan);
 
 //----- hapus properti objek -----
 delete(mhs1.namaBelakang);
