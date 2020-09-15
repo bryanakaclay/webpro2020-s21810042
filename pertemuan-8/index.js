@@ -16,5 +16,6 @@ let account = {
     }
 };
 account.addExpenses("Beli Tandon", 300000);
-account.addExpenses("Beli Nasi Padang", 50000);
+account.addExpenses("Beli Nasi Padang", 75000);
+account.addExpenses("Beli Odading Mang Oleh", 25000);
 console.log("Total pengeluaran " + account.name + " adalah Rp." + account.getAccountSummary());
