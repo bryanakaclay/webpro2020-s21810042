@@ -1,5 +1,6 @@
 /* REST AND SPREAD OPERATOR */
 
+// --- REST PARAMETER ---
 // --- Old way ---
 const hitung = (a, b, c, d, e) =>{
     const angka = [a, b, c, d, e];
