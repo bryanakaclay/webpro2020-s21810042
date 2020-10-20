@@ -71,3 +71,5 @@ const getNameByID = async ()=>{
     return sukses
 }
 getNameByID().then(result=>console.log(result))
+
+//----
