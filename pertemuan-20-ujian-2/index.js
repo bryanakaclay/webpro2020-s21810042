@@ -59,13 +59,14 @@ console.log(`Area with 21 radius ${area21}, and area with 7 radius: ${area7}`)
 /* 4. */
 console.log("Nomor 4")
 
-const makeAjaxRequest = (url, method) =>{
+const makeAjaxRequest = (url, method) => {
     if(!method){
-   	    method = 'GET'
+           method = `GET`
     }
-    console.log(url, method)
+    console.log(`${url}, ${method}`);
 }
-makeAjaxRequest('www.reddit.com')
+
+makeAjaxRequest(`www.reddit.com`);
 
 
 
@@ -79,6 +80,7 @@ const warnaKesukaan = (warna = 'Putih') =>{
     return console.log(`Warna kesukaan saya adalah ${warna}`)
 }    
 warnaKesukaan('Tosca')
+
 
 
 
