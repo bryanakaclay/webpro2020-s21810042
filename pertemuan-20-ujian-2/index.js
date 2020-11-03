@@ -6,10 +6,10 @@ console.log("BAGIAN A")
 /* 1. */
 console.log("Nomor 1")
 
-const calculate = (birthYear, currentYear) => currentYear - birthYear
+const calculate = (birthYear) => {return 2019 - birthYear}
 const pensiun = (usia) =>{
-	let age = calculate(usia, 2000)
-	let retirement = 60 - usia
+	let age = calculate(usia.birthYear)
+	let retirement = 60 - age
 	if(retirement > 0){
     	console.log(`${usia.firstName} retires in ${retirement} years.`)
     }
@@ -18,9 +18,9 @@ const pensiun = (usia) =>{
 	}
 }
 pensiun({
-    year: 1995,
+    birthYear: 1987,
     firstName: 'Bob'
-})
+});
 
 
 
