@@ -1,7 +1,17 @@
 .header-container {
+  margin: 15px;
   background-color: yellow;
   border-width: 2px;
   border-color: black;
   border-style: solid;
-  margin: 15px;
+}
+.card-container {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color: rgb(21, 224, 207);
 }
