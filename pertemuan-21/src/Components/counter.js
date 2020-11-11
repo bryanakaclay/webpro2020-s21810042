@@ -33,12 +33,12 @@
 //         )
 //     }
 // }
-import React, {useState, useEffect} from 'react';
-const counter = (props) =>{
+import React, {useState, useEffect} from "react";
 
+const Counter = (props) =>{
     const [number, setNumber] = useState(0);
     const [title, setTitle] = useState("Counter")
-
+    
     useEffect(() =>{
         console.log("Komponen telah dimount")
     }, [])
@@ -60,4 +60,4 @@ const counter = (props) =>{
     )
 }
 
-export default counter;
+export default Counter;
