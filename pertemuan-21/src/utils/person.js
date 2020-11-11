@@ -17,10 +17,4 @@ export const person = [
     address: "Manado",
     phone: "089xxxxxxx",
 },
-{
-    name: "Zack",
-    institution: "Unklab",
-    address: "Manado",
-    phone: "081xxxxxxx",
-},
 ];
