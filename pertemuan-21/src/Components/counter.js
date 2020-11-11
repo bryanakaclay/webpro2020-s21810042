@@ -33,7 +33,7 @@
 //         )
 //     }
 // }
-
+import React, {useState, useEffect} from 'react';
 const counter = (props) =>{
 
     const [number, setNumber] = useState(0);
