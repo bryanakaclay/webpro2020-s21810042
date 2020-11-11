@@ -43,8 +43,8 @@ const Counter = (props) =>{
         console.log("Komponen telah dimount")
     }, [])
     
-    const tambah = (params) =>{
-        setNumber(number+params)
+    const tambah = (par) =>{
+        setNumber(number+par)
     }
     const kurang = () =>{
         number < 1 ? setNumber(0) : setNumber(number - 1)
