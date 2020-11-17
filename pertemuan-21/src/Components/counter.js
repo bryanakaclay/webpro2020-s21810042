@@ -33,16 +33,16 @@
 //         )
 //     }
 // }
+
 import React, {useState, useEffect} from "react";
 
 const Counter = (props) =>{
     const [number, setNumber] = useState(0);
-    const [title, setTitle] = useState("Counter")
+    const [title, setTitle] = useState("Counter Anjay")
     
     useEffect(() =>{
         console.log("Komponen telah dimount")
-    }, [])
-    
+    }, [])    
     const tambah = (par) =>{
         setNumber(number+par)
     }
