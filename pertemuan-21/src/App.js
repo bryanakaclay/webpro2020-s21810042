@@ -3,21 +3,20 @@ import Card from "./Components/card"
 import "./App.css"
 import axios from 'axios';
 
-// class App extends Component (
+// class App extends Component {
 //     state = {
 //         users: [],
 //     };
 
 //     componentDidMount(){
 //         axios
-//             .get((response) => this.setState({users: response.data}));
-//             .
-        
+//             .get("https://jsonplaceholder.typicode.com/users")
+//             .then((response) => this.setState({users: response.data}))
 //     }
 //     render(){
 //         return(
-//             {
-//                 this.state.users.map((item)=>{
+//             <>
+//                 {this.state.users.map((item)=>{
 //                     return(
 //                         <Card
 //                             name={item.name}
@@ -26,11 +25,11 @@ import axios from 'axios';
 //                             phone={item.phone} 
 //                         />
 //                     )
-//                 })
-//             }
+//                 })}
+//             </>
 //         )
 //     }
-// )
+// }
 
 const App = () =>{
     const [users, setUsers] = useState([])
