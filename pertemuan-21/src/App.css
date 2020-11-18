@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body{
    font-family: 'Open Sans',serif;
+   font-style: inherit;
+   color: greenyellow;
 }
 
 .header-container {
@@ -15,8 +17,9 @@ body{
   padding: 10px;
   border-radius: 10px;
   border-width: 3px;
-  border-color: black;
+  border-color: rgb(228, 5, 5);
   border-style: solid;
   font-weight: bold;
-  background-color: rgb(21, 224, 207);
+  background-image: url(https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg);
+  background-size: 450px;
 }
