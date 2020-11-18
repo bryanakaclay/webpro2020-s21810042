@@ -1,5 +1,5 @@
-import React, {Component, useEffect, setState} from 'react'
-import Card from "./src/Components/card"
+import React, {Component, useEffect, useState} from 'react'
+import Card from "./Components/card"
 import "./App.css"
 import axios from 'axios';
 
@@ -32,17 +32,32 @@ import axios from 'axios';
 //     }
 // )
 
-const App = ( =>{
-    useEffect(() => {
-        
-        }
-    }, [])
+const App = () =>{
+    const [users, setUsers] = useState([])
 
+    useEffect(() => {
+        axios
+            .get("https://jsonplaceholder.typicode.com/users")
+            .then((response) => setUsers(response.data))
+    }, [])
+    console.log(users)
     return(
         <>
-            <p>App Component</p>
+            {
+                users.map((item) =>{
+                    return(
+                        <Card
+                            name={item.name}
+                            username={item.username}
+                            email={item.email}
+                            phone={item.phone} 
+                        />
+                    )
+                })
+            }
         </>
     )
 }
 
 export default App
+
